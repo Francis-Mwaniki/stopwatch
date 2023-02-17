@@ -1,0 +1,101 @@
+body{
+    background-color: #f1f1f1;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+    color: #333;
+    width: 100%;
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+}
+.flex{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  
+}
+/* container width=50% height=60%  flex-col*/
+.container{
+    width: 70%;
+    height: 60%;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+/* stopwatch  flex-col*/
+.stopwatch{
+    width: 100%;
+    margin: auto;
+    height: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+/* stopwatch h1 */
+.stopwatch h1{
+  margin-bottom: 40px;
+    font-size: 30px;
+    font-family: cursive;
+}
+.footer{
+    width: 100%;
+    height: 50%;
+    display: flex;
+    flex-direction: row;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    justify-content: center;
+    align-items: center;
+}
+/* circle width & height=240px box-shadow(50,50,93,0.25) border-radius */
+.circle{
+    width: 240px;
+    height: 240px;
+    background-color: #fff;
+    box-shadow: 0 0 50px rgba(50,50,93,0.25);
+    /* rgb  color*/
+
+    border-radius: 999px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+/* circle span font-weight=500 font-size=40px */
+.circle span{
+    font-weight: 500;
+    font-size: 40px;
+}
+/* controls button  bg-color=transparent border=none outline=none*/
+.controls button{
+    background-color: transparent;
+    border: none;
+    outline: none;
+}
+/* controls button i margin=(0,20px) cursor-pointer font-size=20px */
+.controls button i{
+    margin: 0 20px;
+    cursor: pointer;
+    font-size: 20px;
+}
+/* controls button i:hover color=rgb(50,50,93) */
+.controls button i:hover{
+    color: rgb(50,50,93);
+}
+/* controls mt=50px */
+.controls{
+    margin-top: 70px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    flex-direction: row;
+}
+/* btnPlay  block*/
+#btnPlay{
+    display: block;
+}
